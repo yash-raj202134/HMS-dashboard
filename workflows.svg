@@ -1,0 +1,54 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .node { fill: #4CAF50; stroke: #2E7D32; stroke-width: 3px; rx: 10; ry: 10; }
+        .text { fill: white; font-size: 14px; font-weight: bold; text-anchor: middle; }
+        .arrow { stroke: #2E7D32; stroke-width: 3px; marker-end: url(#arrowhead); }
+    </style>
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#2E7D32"/>
+        </marker>
+    </defs>
+
+    <!-- Nodes -->
+    <rect class="node" x="300" y="20" width="200" height="40"/>
+    <text class="text" x="400" y="45">Requirement Gathering</text>
+
+    <rect class="node" x="300" y="80" width="200" height="40"/>
+    <text class="text" x="400" y="105">Data Walkthrough</text>
+
+    <rect class="node" x="300" y="140" width="200" height="40"/>
+    <text class="text" x="400" y="165">Data Connection</text>
+
+    <rect class="node" x="300" y="200" width="200" height="40"/>
+    <text class="text" x="400" y="225">Data Cleaning & QC</text>
+
+    <rect class="node" x="300" y="260" width="200" height="40"/>
+    <text class="text" x="400" y="285">Data Modeling</text>
+
+    <rect class="node" x="300" y="320" width="200" height="40"/>
+    <text class="text" x="400" y="345">DAX Calculations</text>
+
+    <rect class="node" x="300" y="380" width="200" height="40"/>
+    <text class="text" x="400" y="405">Dashboard Layout</text>
+
+    <rect class="node" x="300" y="440" width="200" height="40"/>
+    <text class="text" x="400" y="465">Charts Development</text>
+
+    <rect class="node" x="300" y="500" width="200" height="40"/>
+    <text class="text" x="400" y="525">Report Development</text>
+
+    <rect class="node" x="300" y="560" width="200" height="40"/>
+    <text class="text" x="400" y="585">Insights & Recommendations</text>
+
+    <!-- Arrows -->
+    <line class="arrow" x1="400" y1="60" x2="400" y2="80"/>
+    <line class="arrow" x1="400" y1="120" x2="400" y2="140"/>
+    <line class="arrow" x1="400" y1="180" x2="400" y2="200"/>
+    <line class="arrow" x1="400" y1="240" x2="400" y2="260"/>
+    <line class="arrow" x1="400" y1="300" x2="400" y2="320"/>
+    <line class="arrow" x1="400" y1="360" x2="400" y2="380"/>
+    <line class="arrow" x1="400" y1="420" x2="400" y2="440"/>
+    <line class="arrow" x1="400" y1="480" x2="400" y2="500"/>
+    <line class="arrow" x1="400" y1="540" x2="400" y2="560"/>
+</svg>
